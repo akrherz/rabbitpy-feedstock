@@ -1,5 +1,5 @@
 {% set name = "rabbitpy" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rabbitpy-{{ version }}.tar.gz
-  sha256: 0664ca146869215c602eafab69fccf63ad24710fcc4dd9c9c37b4b1e62fdb9c1
+  sha256: 9322a1e82b4d3d1afc21a617ce0b1e86b921174328735e7d54abc9525805ae5c
 
 build:
   noarch: python
